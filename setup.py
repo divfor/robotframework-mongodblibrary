@@ -18,7 +18,7 @@ def main():
           author_email = 'jerry@iplantcollaborative.org',
           url          = 'https://github.com/iPlantCollaborativeOpenSource',
           package_dir  = { '' : 'src'},
-          install_requires = ["pymongo", "bson==0.4.3"],
+          install_requires = ["pymongo"],
           packages     = ['MongoDBLibrary']
           )
         
