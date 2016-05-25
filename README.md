@@ -3,7 +3,7 @@ Robotframework-MongoDB-Library
 
 A library for interacting with MongoDB from RobotFramework.
 
-Uses pymongo.
+Uses pymongo and bson
 
 License
 -------
@@ -13,7 +13,11 @@ Install
 -------
 You can install by pulling down source and executing the following:
 
-'''
+```bash
 sudo python setup.py install
-'''
+```
 
+or
+```bash
+sudo pip install robotframework-mongodblibrary
+```
