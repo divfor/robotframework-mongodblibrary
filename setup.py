@@ -3,7 +3,8 @@
 
 """Setup script for Robot's MongoDB Library distributions"""
 
-from distutils.core import setup
+from setuptools import setup
+#from distutils.core import setup
 
 import sys, os
 sys.path.insert(0, os.path.join('src','MongoDBLibrary'))
@@ -18,7 +19,7 @@ def main():
           author_email = 'jerry@iplantcollaborative.org',
           url          = 'https://github.com/iPlantCollaborativeOpenSource',
           package_dir  = { '' : 'src'},
-          install_requires = ["pymongo"],
+          install_requires = ["pymongo >= 3.2"],
           packages     = ['MongoDBLibrary']
           )
         
